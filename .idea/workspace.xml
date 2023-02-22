@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="23ff5a56-8c13-4afc-aa75-cb339ab10581" name="Changes" comment="First Commit">
-      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/nginx/site.conf" afterDir="false" />
+    <list default="true" id="23ff5a56-8c13-4afc-aa75-cb339ab10581" name="Changes" comment="feat()">
+      <change afterPath="$PROJECT_DIR$/app/Fornecedor.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2023_02_22_200552_create_fornecedores_table.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b083fb0e-9901-4533-a3cf-a82c29941919.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -132,12 +130,16 @@
     </include_path>
   </component>
   <component name="ProjectId" id="2Ls1cLtH3f5oMs0GITcuyK2NtYi" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
@@ -146,6 +148,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -175,8 +178,17 @@
       <updated>1676645064765</updated>
       <workItem from="1676645065179" duration="9236000" />
       <workItem from="1677064953377" duration="779000" />
-      <workItem from="1677088820221" duration="2038000" />
+      <workItem from="1677088820221" duration="3148000" />
+      <workItem from="1677093649280" duration="2376000" />
     </task>
+    <task id="LOCAL-00001" summary="Finalmente dockerizado">
+      <created>1677090910498</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1677090910498</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -184,5 +196,10 @@
   </component>
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName=".env" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Finalmente dockerizado" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finalmente dockerizado" />
   </component>
 </project>
