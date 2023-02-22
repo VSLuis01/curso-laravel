@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="23ff5a56-8c13-4afc-aa75-cb339ab10581" name="Changes" comment="feat()">
-      <change afterPath="$PROJECT_DIR$/database/migrations/2023_02_22_202519_alter_fornecedores_novas_colunas.php" afterDir="false" />
+    <list default="true" id="23ff5a56-8c13-4afc-aa75-cb339ab10581" name="Changes" comment="feat(database): altered table&#10;&#10;created rollback to drop a column">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2023_02_22_202519_alter_fornecedores_novas_colunas.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2023_02_22_202519_alter_fornecedores_novas_colunas.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -184,7 +185,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677090910498</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="docs(gitignore): update gitignore">
+      <created>1677099208308</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1677099208308</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -193,9 +201,35 @@
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName=".env" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Finalmente dockerizado" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finalmente dockerizado" />
+    <MESSAGE value="docs(gitignore): update gitignore" />
+    <MESSAGE value="feat(database): altered table&#10;&#10;created rollback to drop a column" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(database): altered table&#10;&#10;created rollback to drop a column" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+  <component name="com.github.lppedd.cc.CommitBuilderDialog">
+    <type>feat</type>
+    <scope>database</scope>
+    <subject>altered table</subject>
+    <body>created rollback to drop a column</body>
+    <footers>
+      <entry type="" value="" />
+    </footers>
   </component>
 </project>
