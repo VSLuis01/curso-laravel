@@ -20,11 +20,12 @@ class CreateProdutoDetalhesTable extends Migration
             $table->float('comprimento', 8, 2);
             $table->float('largra', 8, 2);
             $table->float('altura', 8, 2);
-            $table->timestamps();
 
             // constraint
             $table->foreign('produto_id')->references('id')->on('produtos');
             $table->unique('produto_id'); // Faz a relação ser UM pra UM
+
+            $table->timestamps();
         });
     }
 
